@@ -1,0 +1,142 @@
+ body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+#topbar
+	{   
+	background-color: #0055ff;
+    height: 56px;
+	}
+img{
+	height:auto;
+	max-width:100%;
+	 width: auto\9; /* ie8 */
+}
+nav{
+	background-color: #0055ff !important;
+}
+.top_right_menu> li:hover{
+	background-color:#ff4c20 !important;
+}
+.side-nav> li:hover{
+	background-color:#ff4c20 !important;
+}
+
+#resume_promo{
+	
+	font-family: 'Patua One', cursive;
+	color:#191d9b;
+	
+}
+#blue_resume{
+	padding:80px;
+	filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+     transition: filter 0.5s;
+}
+#promote_img{
+	padding:50px;
+	filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+     transition: filter 0.5s;
+}
+#blue_resume:hover{
+	filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+#promote_img:hover{
+	filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+}
+#resume_promo h4{
+	font-family: 'Patua One', cursive;
+	color:#424242;
+	text-align:justify;
+	line-height:inherit;
+}
+.even_row{
+	background-color:#f7f7f7;
+}
+.page-footer{
+	background-color:#ffffff !important;
+	color:#a5abb8 !important;
+}
+.footer-copyright
+{
+	background-color: #0089ec !important;
+}
+.contact_details>li>a{
+	color:#fff !important;
+}
+.home_content>.row>.content>img{
+	filter: gray; /* IE6-9 */
+    -webkit-filter: grayscale(100%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+     transition: filter 0.5s;
+}
+.home_content>.row>.content>img:hover{
+	filter: gray; /* IE6-9 */
+     -webkit-filter: grayscale(0%); /* Chrome 19+, Safari 6+, Safari 6+ iOS */
+  
+}
+.drop{
+  position: relative;
+  display: inline-block;
+}
+
+.drop-content {
+  display: none;
+  position: absolute;
+  background-color: #0055ff;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+.mdrop-content {
+  display: none;
+  position: absolute;
+  background-color: #0055ff;
+  min-width: 160px;
+  padding: 12px 16px;
+  z-index: 1;
+}
+.drop:hover .drop-content {
+  display: inline-block;
+}
+
+.drop1:hover .mdrop-content {
+  display: inline-block;
+}
+
+#panell{
+     margin-top: 100px;
+     padding: 0px;
+   }
+   #loginbtn{
+     float: right;
+     margin-bottom: 10px;
+     margin-right: 10px;
+   }
+   #title{
+     background-color: #2bbbad;
+     color: white;
+     padding: 8px;
+     margin-top: 0px
+   }
+   form{
+     padding:0px;
+     border-radius: 3px;
+     box-sizing: border-box;
+   }
+   #username,#password{
+    margin-left: 20px;
+    margin-right: 20px;
+   }
+   #checkbox{
+    margin-left: 30px;
+   }
